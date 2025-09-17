@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bouchaib542.github.io/upe-goldbach-riemann/sitemap.xml
