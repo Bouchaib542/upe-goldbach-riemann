@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>UPE–Riemann Calculator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
@@ -12,23 +12,55 @@
     <p>Unified Prime Equation: Goldbach pairs &amp; spectral link</p>
   </header>
 
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#calc">Calculator</a>
+    <a href="article.html">Article</a>
+    <a href="#downloads">Downloads</a>
+  </nav>
+
   <main>
-    <section>
-      <h2>Enter an even number E</h2>
-      <input type="number" id="evenInput" placeholder="Enter an even integer ≥ 4">
-      <button onclick="computeUPE()">Compute</button>
+    <section id="overview" class="card">
+      <h2>Overview</h2>
+      <p>
+        The Unified Prime Equation (UPE) constructs Goldbach pairs for every even E ≥ 4 and
+        reveals a spectral link to the nontrivial zeros of ζ(s) via normalized displacements
+        f(E) = t/(log E)². Read the full article for the complete demonstration.
+      </p>
+      <p>
+        <a href="article.html"><strong>➡ Read the Article (online)</strong></a>
+        &nbsp;|&nbsp;
+        <a href="UPE_Goldbach_Riemann_Full.docx" download><strong>⬇ Download the Article (DOCX)</strong></a>
+      </p>
     </section>
 
-    <section id="result" class="card">
-      <h2>Result</h2>
-      <p id="output">No computation yet.</p>
+    <section id="calc">
+      <h2>Enter an even number E</h2>
+      <input type="number" id="evenInput" placeholder="Enter an even integer ≥ 4" />
+      <button onclick="computeUPE()">Compute</button>
+
+      <div id="result" class="card">
+        <h2>Result</h2>
+        <p id="output">No computation yet.</p>
+      </div>
+    </section>
+
+    <section id="downloads" class="card">
+      <h2>Downloads</h2>
+      <ul>
+        <li><a href="UPE_Goldbach_Riemann_Full.docx" download>Article DOCX: “Unified Prime Equation (UPE), Goldbach’s Law at Infinity, and the Zeta Spectrum”</a></li>
+      </ul>
+      <p style="font-size:0.95rem; color:#555;">
+        Note: Place <code>UPE_Goldbach_Riemann_Full.docx</code> in the repository root (same folder as this page) or adjust the link path.
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Bouchaïb Bahbouhi — UPE & Riemann Project</p>
+    <p>© 2025 Bouchaïb Bahbouhi — UPE &amp; Riemann Project</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+```0
