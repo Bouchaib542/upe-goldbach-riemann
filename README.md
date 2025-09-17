@@ -21,16 +21,19 @@ In this way, the site illustrates both:
    - Normalized value `f(E)`  
    - Nearest Riemann zero γ  
 
+## Reference Article
+📄 **Unified Prime Equation (UPE), Goldbach’s Law at Infinity, and the Zeta Spectrum — A Constructive Resolution and Spectral Reconstruction**  
+Author: *Bouchaïb Bahbouhi* (2025)  
+
+- [Read the article online](article.html)  
+- [Download the article (DOCX)](UPE_Goldbach_Riemann_Full.docx)  
+
 ## Files
-- `index.html` — main page  
+- `index.html` — main page (calculator + links)  
 - `style.css` — design and layout  
 - `script.js` — calculator logic  
+- `article.html` — web version of the article  
 - `README.md` — project description  
-
-## Reference Article
-For a detailed theoretical and computational exposition of UPE and its connection to the Riemann zeros, see:  
-📄 **“Unified Prime Equation (UPE), Goldbach’s Law at Infinity, and the Zeta Spectrum — A Constructive Resolution and Spectral Reconstruction”** (Bahbouhi, 2025).  
-[Download Article (DOCX)](sandbox:/mnt/data/UPE_Goldbach_Riemann_Full.docx)
 
 ## Author
 **Bouchaïb Bahbouhi**  
