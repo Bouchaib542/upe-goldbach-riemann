@@ -25,8 +25,7 @@ In this way, the site illustrates both:
 📄 **Unified Prime Equation (UPE), Goldbach’s Law at Infinity, and the Zeta Spectrum — A Constructive Resolution and Spectral Reconstruction**  
 Author: *Bouchaïb Bahbouhi* (2025)  
 
-- [Read the article online](article.html)  
-- [Download the article (DOCX)](https://github.com/<ton-username>/<ton-repo>/raw/main/UPE_Goldbach_Riemann_Full.docx)
+- [Read the article online](article.html)
 
 ## Files
 - `index.html` — main page (calculator + links)  
