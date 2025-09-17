@@ -26,7 +26,7 @@ In this way, the site illustrates both:
 Author: *Bouchaïb Bahbouhi* (2025)  
 
 - [Read the article online](article.html)  
-- [Download the article (DOCX)](UPE_Goldbach_Riemann_Full.docx)  
+- [Download the article (DOCX)](https://github.com/<ton-username>/<ton-repo>/raw/main/UPE_Goldbach_Riemann_Full.docx)
 
 ## Files
 - `index.html` — main page (calculator + links)  
